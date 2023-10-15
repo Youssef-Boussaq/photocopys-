@@ -1,0 +1,7 @@
+a = int(input("how many photocopys  ; "))
+if a<=10:
+    print("price is", a*0.30 ,"dh")
+elif a>10 and a<=30:
+    print("price is ", (a-10)*0.25+10*0.30,"dh")
+else:
+    print("price is",10*0.30+20*0.25+(a-30) )
